@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title></title>
+    <link rel="stylesheet" href="./assets/css/flexslider.css" type="text/css" media="screen" />
+  </head>
+  <body style="background-color:#FEF9E7">
+    <div id="main" role="main">
+      <section class="slider">
+        <div class="flexslider" style="margin-top:17%;">
+          <ul class="slides">
+            <li>
+              <img src="./assets/images/kitchen_adventurer_caramel.jpg" alt="flower">
+            </li>
+            <li>
+              <img src="./assets/images/kitchen_adventurer_cheesecake_brownie.jpg" alt="flower">
+            </li>
+            <li>
+              <img src="./assets/images/kitchen_adventurer_donut.jpg" alt="flower">
+            </li>
+            <li>
+              <img src="./assets/images/kitchen_adventurer_lemon.jpg" alt="flower">
+            </li>
+            <li>
+              <img src="./assets/images/f1.jpg" alt="flower">
+            </li>
+            <li>
+              <img src="./assets/images/f2.jpg" alt="flower">
+            </li>
+            <li>
+              <img src="./assets/images/f3.jpg" alt="flower">
+            </li>
+            <li>
+              <img src="./assets/images/f4.jpg" alt="flower">
+            </li>
+            <li>
+              <img src="./assets/images/f5.jpg" alt="flower">
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+        <script defer src="./assets/js/jquery.flexslider.js"></script>
+          <script type="text/javascript">
+            $(window).load(function(){
+            $(".flexslider").flexslider({
+            animation:"slide",
+            animationLoop:true,
+            itemWidth:210,
+            itemMargin:5,
+            minItems:1,
+            maxItems:4
+          });
+        });
+      </script>
+  </body>
+</html>
